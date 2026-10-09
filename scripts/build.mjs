@@ -28,4 +28,4 @@ for (const page of ['index', 'support', 'privacy']) {
 }
 writeFileSync(path.join(root, 'dist', 'robots.txt'), ready
   ? 'User-agent: *\nAllow: /\n' : 'User-agent: *\nDisallow: /\n');
-console.log(ready ? 'Built public-ready content; verify deployment and app links before submission.' : 'Built review draft; owner and contact information must be finalized.');
+console.log(ready ? 'Built public-ready content; verify deployment and app links before submission.' : 'Built review draft; support contact information must be finalized.');
