@@ -1,0 +1,5 @@
+{
+  "name": "podiumpro-site",
+  "private": true,
+  "scripts": { "build": "node scripts/build.mjs" }
+}
